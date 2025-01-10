@@ -1,0 +1,56 @@
+body {
+   background-image: url(https://uploadstatic-sea.mihoyo.com/contentweb/20200807/2020080718570747440.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 30px;
+}
+
+h2,h3,h4,label  {
+  color: black;
+  text-align: center;
+}
+
+.col {
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 5px;
+  border: 5px solid gold;
+}
+
+img{
+  width: 1000px;
+}
+
+button {
+  background-color: #046380;
+  color: #FFF;
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 2px 2px 0 #034154;
+  margin-bottom: 90px;
+  margin-left: 18px;
+  transition: opacity .4s ease-out, transform .4s ease-out, visibility .4s ease-out;
+  position: relative;
+  top: -10px;
+}
+
+button:hover {
+  background-color: #034F66;
+}
+
+button:active {
+  background-color: #034154;
+  box-shadow: none;
+  position: relative;
+  top: -8px;
+  left: 2px;
+}
